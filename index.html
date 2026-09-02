@@ -1,35 +1,92 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Metsni Portfolio</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Welcome to My Portfolio</h1>
-  <p>Hi, I’m Metsni — a Computer Science student at Saint Mary's University, passionate about cybersecurity, data science, and full‑stack development.</p>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <h1 class="logo">Metsni</h1>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
 
-  <h2>Skills</h2>
-  <ul>
-    <li>Java (Intermediate)</li>
-    <li>C++ (Beginner)</li>
-    <li>Database Management (Intermediate)</li>
-    <li>Computer Organization & Architecture</li>
-  </ul>
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h2>Hi, I'm Metsni</h2>
+      <p>I build things for the web — passionate about cybersecurity, data science, and full‑stack development.</p>
+      <div class="hero-buttons">
+        <a href="#projects" class="btn">View My Work</a>
+        <a href="#" class="btn-outline">Download CV</a>
+      </div>
+    </div>
+  </section>
 
-  <h2>Projects</h2>
-  <ul>
-    <li>OOP Java cafeteria</li>
-    <li>Database Management Systems</li>
-    <li>Guessing game</li>
-  </ul>
+  <!-- About Section -->
+  <section id="about" class="about">
+    <h2>About Me</h2>
+    <p>I'm a 3rd‑year Computer Science student at Saint Mary's University. I love solving problems, learning new technologies, and creating meaningful digital experiences.</p>
+    <div class="stats">
+      <div><h3>4+</h3><p>Projects Completed</p></div>
+      <div><h3>1</h3><p>Year of Experience</p></div>
+      <div><h3>100%</h3><p>Commitment</p></div>
+    </div>
+  </section>
 
-  <h2>Certificates</h2>
-  <p>Google Cybersecurity (in progress), IBM Data Science, AWS Cloud Practitioner (in progress)</p>
+  <!-- Skills Section -->
+  <section id="skills" class="skills">
+    <h2>Skills</h2>
+    <div class="skill-bars">
+      <div class="skill"><span>Java</span><div class="bar"><div class="fill" style="width:80%"></div></div></div>
+      <div class="skill"><span>C++</span><div class="bar"><div class="fill" style="width:60%"></div></div></div>
+      <div class="skill"><span>Python</span><div class="bar"><div class="fill" style="width:70%"></div></div></div>
+      <div class="skill"><span>HTML/CSS</span><div class="bar"><div class="fill" style="width:90%"></div></div></div>
+      <div class="skill"><span>React</span><div class="bar"><div class="fill" style="width:75%"></div></div></div>
+    </div>
+  </section>
 
-  <h2>Goals</h2>
-  <p>Pursuing a master’s in Information Systems Management or Data Science & AI, while building a career in tech.</p>
+  <!-- Projects Section -->
+  <section id="projects" class="projects">
+    <h2>Projects</h2>
+    <div class="project-grid">
+      <div class="project-card">
+        <h3>OOP Java Exam Prep</h3>
+        <p>Interactive study tool for object‑oriented programming concepts.</p>
+      </div>
+      <div class="project-card">
+        <h3>Database Management System</h3>
+        <p>Designed and implemented relational database models for coursework.</p>
+      </div>
+      <div class="project-card">
+        <h3>Cooking Experiments</h3>
+        <p>Personal blog documenting creative recipes and skillet techniques.</p>
+      </div>
+    </div>
+  </section>
 
-  <h2>Contact</h2>
-  <p>Email: metsnib@gmail.com</p>
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <h2>Contact</h2>
+    <p>Have a project in mind or want to collaborate?</p>
+    <p>Email: <a href="mailto:metsnib@gmail.com">metsnib@gmail.com</a></p>
+    <div class="social-icons">
+      <a href="#">GitHub</a>
+      <a href="#">LinkedIn</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2026 Metsni. All rights reserved.</p>
+  </footer>
 </body>
 </html>
