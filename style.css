@@ -1,0 +1,53 @@
+/* General page styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Header */
+h1 {
+  background: #4CAF50;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  margin: 0;
+}
+
+/* Section titles */
+h2 {
+  color: #4CAF50;
+  margin-top: 30px;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 5px;
+}
+
+/* Lists */
+ul {
+  list-style-type: square;
+  margin: 10px 0 20px 20px;
+}
+
+/* Contact section */
+p {
+  margin: 10px 0;
+}
+
+/* Container for content */
+body {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* Links */
+a {
+  color: #4CAF50;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
